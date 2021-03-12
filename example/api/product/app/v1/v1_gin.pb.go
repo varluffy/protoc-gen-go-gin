@@ -12,7 +12,7 @@ import (
 // This is a compile-time assertion to ensure that this generated file
 // is compatible with the varluffy/protoc-gen-go-gin package it is being compiled against.
 // context.metadata.
-//gin.ginx.
+// gin.ginx.
 
 type BlogServiceHTTPServer interface {
 	CreateArticle(context.Context, *Article) (*Article, error)
